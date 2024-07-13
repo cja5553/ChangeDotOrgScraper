@@ -1,0 +1,1 @@
+from .change_org_scrapper import scrape_petitions
