@@ -3,10 +3,10 @@ Scrapes petitions from [change.org](https://www.change.org/).
 [![GitHub Source Code](https://img.shields.io/badge/github_source_code-source_code?logo=github&color=green)](https://github.com/cja5553/change_org_scraper) 
 
 ## Quick Start
-Here we provide a quick example on how you can use `AutoThemeGenerator` to scrape petitions right from [change.org](https://www.change.org/). 
+Here we provide a quick example on how you can use `ChangeDotOrgScraper` to scrape petitions right from [change.org](https://www.change.org/). 
 
 ```python
-from change_dot_org import scrape_petitions
+from ChangeDotOrgScraper import scrape_petitions
 
 # Specify the url of your scrape.org searches
 ## for instance, we shall scrape petitions from the search "supplemental nutrition assistance program"
@@ -24,7 +24,7 @@ It returns a dataframe with all the petitions related to SNAP as well as corresp
 
 ## Requirements
 ### Required packages
-To use `change_org_scrapper`, you are required to have the following packages installed:  
+To use `ChangeDotOrgScraper`, you are required to have the following packages installed:  
 - `requests`
 - `bs4`    
 - `tqdm`    
@@ -41,7 +41,7 @@ pip install requests bs4 tqdm pandas ast
 ## Installation
 To install in python, simply do the following: 
 ```bash
-pip install change_org_scrapper
+pip install ChangeDotOrgScraper
 ```
 
 ## Citation
