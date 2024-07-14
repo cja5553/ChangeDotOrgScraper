@@ -8,7 +8,7 @@ with codecs.open(readme_path, encoding="utf-8") as fh:
     long_description = fh.read()
 VERSION = '0.0.1'
 DESCRIPTION = 'Scrapes petitions and corresponding information from change.org'
-LONG_DESCRIPTION = 'A package scrapes all petition information, including the title, Description, target audience, signature count, creator name, date created, location createdd, and victory status, upon providing the url of the change.org search.'
+LONG_DESCRIPTION = 'A package scrapes all petition information, including the title, Description, target audience, signature count, creator name, date created, location created, and victory status, upon providing the url of the change.org search.'
 
 # Setting up
 setup(
@@ -20,7 +20,7 @@ setup(
     long_description_content_type="text/markdown",
     long_description=long_description,
     packages=find_packages(),
-    install_requires=['requests','bs4', 'tqdm', 'pandas', ,'ast'],
+    install_requires=['requests','bs4', 'tqdm', 'pandas','ast'],
     keywords=['change.org','petitions','web scraping'],
     classifiers=[
         "Development Status :: 1 - Planning",

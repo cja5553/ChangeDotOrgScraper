@@ -51,8 +51,8 @@ def get_pages_no(soup):
         num_results = match.group(1)
         # Optional: convert the string number to an integer, removing commas
         num_results_int = int(num_results.replace(',', ''))
-        #print(num_results)  # This will print the string '1,456'
-        #print(num_results_int)  # This will print the integer 1456
+        #print(num_results)  # This will print the string 
+        #print(num_results_int)  # This will print the integer 
     else:
         print("No match found")
     offset=(num_results_int//10)*10
@@ -155,6 +155,7 @@ def scrape_petitions(url):
     petition title, Description, target audience, signature count, creator name, date created, location createdd, and victory status. 
     '''
     soup=get_soup(url)
+    # gets the list of page numbers. 
     pages=get_pages_no(soup)
     list_of_petitions=[]
     if url.endswith("&offset=0"):
@@ -164,6 +165,7 @@ def scrape_petitions(url):
         url=url
     else:
         url=url+"&offset="
+    # this for loop runs through all the pages and extracts the petitions.
     for (i) in tqdm(pages):
         #print(f"obtaining page {i} of {pages[-1]} pages")
         i=str(i)
@@ -178,6 +180,6 @@ def scrape_petitions(url):
     data_of_petitions=pd.DataFrame(list_of_petitions)
     return(data_of_petitions)
     
-# example  use case
+# example use case
 # url = "https://www.change.org/search?q=Supplemental%20Nutrition%20Assistance%20Program&offset=0"
 # SNAP_petitions=scrape_petitions(url)
