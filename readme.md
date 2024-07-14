@@ -1,6 +1,6 @@
 
 ## Quick Start
-Here we provide a quick example on how you can use `AutoThemeGenerator` to scrape petitions right from [change.org](https://www.change.org/). 
+Here we provide a quick example on how you can use `change_org_scraper` to scrape petitions right from [change.org](https://www.change.org/). 
 
 ```python
 from change_dot_org import scrape_petitions
