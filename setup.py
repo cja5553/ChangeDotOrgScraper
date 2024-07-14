@@ -7,12 +7,12 @@ readme_path = os.path.join(here, "README.md")
 with codecs.open(readme_path, encoding="utf-8") as fh:
     long_description = fh.read()
 VERSION = '0.0.1'
-DESCRIPTION = 'Scrappes petitions and corresponding information from change.org'
-LONG_DESCRIPTION = 'A package scrappes all petition information, including the title, Description, target audience, signature count, creator name, date created, location createdd, and victory status, upon providing the url of the change.org search.'
+DESCRIPTION = 'Scrapes petitions and corresponding information from change.org'
+LONG_DESCRIPTION = 'A package scrapes all petition information, including the title, Description, target audience, signature count, creator name, date created, location createdd, and victory status, upon providing the url of the change.org search.'
 
 # Setting up
 setup(
-    name="change_org_scrapper",
+    name="change_org_scraper",
     version=VERSION,
     author="Charles Alba",
     author_email="alba@wustl.edu",
@@ -21,7 +21,7 @@ setup(
     long_description=long_description,
     packages=find_packages(),
     install_requires=['requests','bs4', 'tqdm', 'pandas', ,'ast'],
-    keywords=['change.org','petitions','web scrapping'],
+    keywords=['change.org','petitions','web scraping'],
     classifiers=[
         "Development Status :: 1 - Planning",
         "Intended Audience :: Education",
