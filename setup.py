@@ -21,6 +21,7 @@ setup(
     long_description=long_description,
     packages=find_packages(),
     install_requires=['requests','bs4', 'tqdm', 'pandas','ast'],
+    license='MIT',
     keywords=['change.org','petitions','web scraping'],
     classifiers=[
         "Development Status :: 1 - Planning",
