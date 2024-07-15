@@ -12,7 +12,7 @@ LONG_DESCRIPTION = 'A package scrapes all petition information, including the ti
 
 # Setting up
 setup(
-    name="change_org_scraper",
+    name="ChangeDotOrgScraper",
     version=VERSION,
     author="Charles Alba",
     author_email="alba@wustl.edu",
