@@ -6,7 +6,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 readme_path = os.path.join(here, "README.md")
 with codecs.open(readme_path, encoding="utf-8") as fh:
     long_description = fh.read()
-VERSION = '0.0.1'
+VERSION = '0.0.3'
 DESCRIPTION = 'Scrapes petitions and corresponding information from change.org'
 LONG_DESCRIPTION = 'A package scrapes all petition information, including the title, Description, target audience, signature count, creator name, date created, location created, and victory status, upon providing the url of the change.org search.'
 
