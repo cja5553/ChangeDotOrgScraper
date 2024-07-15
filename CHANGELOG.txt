@@ -1,6 +1,18 @@
 Change Log
 ==========
 
+0.0.4 (07/14/2024)
+-------------------
+- Slight grammatical errors corrected in readme
+
+0.0.3 (07/13/2024)
+-------------------
+- Slight modifications
+
+0.0.2 (07/13/2024)
+-------------------
+- Readme enhanced to include shields badges 
+
 0.0.1 (07/13/2024)
 -------------------
 - First Release

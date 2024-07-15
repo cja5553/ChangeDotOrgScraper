@@ -1,9 +1,9 @@
-Scrapes petitions from [change.org](https://www.change.org/).
+Scrapes online petition data from [change.org](https://www.change.org/).
 
-[![pypi package](https://img.shields.io/badge/pypi_package-v0.0.3-brightgreen)](https://pypi.org/project/ChangeDotOrgScraper/) [![GitHub Source Code](https://img.shields.io/badge/github_source_code-source_code?logo=github&color=green)](https://github.com/cja5553/change_org_scraper) 
+[![pypi package](https://img.shields.io/badge/pypi_package-v0.0.4-brightgreen)](https://pypi.org/project/ChangeDotOrgScraper/) [![GitHub Source Code](https://img.shields.io/badge/github_source_code-source_code?logo=github&color=green)](https://github.com/cja5553/change_org_scraper) 
 
 ## Quick Start
-Here we provide a quick example on how you can use `ChangeDotOrgScraper` to scrape petitions right from [change.org](https://www.change.org/). 
+Here we provide a quick example on how you can use `ChangeDotOrgScraper` to scrape petition data right from [change.org](https://www.change.org/). 
 
 ```python
 from ChangeDotOrgScraper import scrape_petitions
@@ -16,7 +16,7 @@ url='https://www.change.org/search?q=Supplemental%20Nutrition%20Assistance%20Pro
 SNAP_petitions_df=scrape_petitions(url)
 print(SNAP_petitions_df)
 ```
-It returns a dataframe with all the petitions related to SNAP as well as corresponding details (eg description, date created, target audience signature count, location created, victory status, etc). 
+It returns a dataframe with all the petitions data, which contains details such as the petition(s) title, description, date created, target audience signature count, location created, victory status, etc. 
 
 
 
@@ -47,7 +47,7 @@ This package was made as part of a larger study on food stamps (i.e., SNAP), the
 
 However, if you wish to cite, you may cite:
 
-C Alba (2024) `ChangeDotOrgScraper`: A python package to scrape petitions from change.org. PyPi. 
+C Alba (2024) `ChangeDotOrgScraper`: A python package to scrape petition data from change.org. PyPi. 
 
-# Questions?
+## Questions?
 Contact me at [alba@wusl.edu](mailto:alba@wusl.edu)
