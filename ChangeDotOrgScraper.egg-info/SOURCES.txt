@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+ChangeDotOrgScraper/ChangeDotOrgScraper.py
+ChangeDotOrgScraper/__init__.py
+ChangeDotOrgScraper.egg-info/PKG-INFO
+ChangeDotOrgScraper.egg-info/SOURCES.txt
+ChangeDotOrgScraper.egg-info/dependency_links.txt
+ChangeDotOrgScraper.egg-info/requires.txt
+ChangeDotOrgScraper.egg-info/top_level.txt
