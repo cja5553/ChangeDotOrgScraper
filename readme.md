@@ -1,6 +1,6 @@
 Scrapes online petition data from [change.org](https://www.change.org/).
 
-[![pypi package](https://img.shields.io/badge/pypi_package-v0.0.4-brightgreen)](https://pypi.org/project/ChangeDotOrgScraper/) [![GitHub Source Code](https://img.shields.io/badge/github_source_code-source_code?logo=github&color=green)](https://github.com/cja5553/change_org_scraper) 
+[![pypi package](https://img.shields.io/badge/pypi_package-v0.0.6-brightgreen)](https://pypi.org/project/ChangeDotOrgScraper/) [![GitHub Source Code](https://img.shields.io/badge/github_source_code-source_code?logo=github&color=green)](https://github.com/cja5553/change_org_scraper) 
 
 ## Quick Start
 Here we provide a quick example on how you can use `ChangeDotOrgScraper` to scrape petition data right from [change.org](https://www.change.org/). 
@@ -27,13 +27,13 @@ To use `ChangeDotOrgScraper`, you are required to have the following packages in
 - `bs4`    
 - `tqdm`    
 - `pandas`  
-- `ast`   
+- `ast` (Python standard library)   
 - `re` (Python standard library)   
 - `json`  (Python standard library)  
 
 If you do not have these packages installed in python, you can do the following:
 ```bash
-pip install requests bs4 tqdm pandas ast
+pip install requests bs4 tqdm pandas
 ```
 
 ## Installation

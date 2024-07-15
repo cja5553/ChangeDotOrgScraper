@@ -1,6 +1,14 @@
 Change Log
 ==========
 
+0.0.6 (07/14/2024)
+-------------------
+- Updated readme in lieu of v0.0.5 being resolved
+
+0.0.5 (07/14/2024)
+-------------------
+- Fix bug in setup due to the installation of ast which comes as a standard python library
+
 0.0.4 (07/14/2024)
 -------------------
 - Slight grammatical errors corrected in readme

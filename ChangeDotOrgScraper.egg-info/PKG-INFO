@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: ChangeDotOrgScraper
-Version: 0.0.4
+Version: 0.0.6
 Summary: Scrapes online petition data from change.org
 Author: Charles Alba
 Author-email: alba@wustl.edu
@@ -19,11 +19,10 @@ Requires-Dist: requests
 Requires-Dist: bs4
 Requires-Dist: tqdm
 Requires-Dist: pandas
-Requires-Dist: ast
 
 Scrapes online petition data from [change.org](https://www.change.org/).
 
-[![pypi package](https://img.shields.io/badge/pypi_package-v0.0.4-brightgreen)](https://pypi.org/project/ChangeDotOrgScraper/) [![GitHub Source Code](https://img.shields.io/badge/github_source_code-source_code?logo=github&color=green)](https://github.com/cja5553/change_org_scraper) 
+[![pypi package](https://img.shields.io/badge/pypi_package-v0.0.6-brightgreen)](https://pypi.org/project/ChangeDotOrgScraper/) [![GitHub Source Code](https://img.shields.io/badge/github_source_code-source_code?logo=github&color=green)](https://github.com/cja5553/change_org_scraper) 
 
 ## Quick Start
 Here we provide a quick example on how you can use `ChangeDotOrgScraper` to scrape petition data right from [change.org](https://www.change.org/). 
@@ -39,7 +38,7 @@ url='https://www.change.org/search?q=Supplemental%20Nutrition%20Assistance%20Pro
 SNAP_petitions_df=scrape_petitions(url)
 print(SNAP_petitions_df)
 ```
-It returns a dataframe with all the petitions data with details such as the petition(s) description, date created, target audience signature count, location created, victory status, etc. 
+It returns a dataframe with all the petitions data, which contains details such as the petition(s) title, description, date created, target audience signature count, location created, victory status, etc. 
 
 
 
@@ -50,13 +49,13 @@ To use `ChangeDotOrgScraper`, you are required to have the following packages in
 - `bs4`    
 - `tqdm`    
 - `pandas`  
-- `ast`   
+- `ast` (Python standard library)   
 - `re` (Python standard library)   
 - `json`  (Python standard library)  
 
 If you do not have these packages installed in python, you can do the following:
 ```bash
-pip install requests bs4 tqdm pandas ast
+pip install requests bs4 tqdm pandas
 ```
 
 ## Installation
