@@ -1,6 +1,11 @@
 Change Log
 ==========
 
+0.0.9 (08/04/2024)
+-------------------
+- Changes in readme due to incorrect email / contact information noted. 
+
+
 0.0.8 (08/04/2024)
 -------------------
 - Changes in readme due to incorrect email / contact information noted. 
