@@ -1,4 +1,4 @@
-`ChangeDotOrgScraper` is an online Python package that allows you to scrape online petition data from [change.org](https://www.change.org/).
+`ChangeDotOrgScraper` is an Python package that allows you to scrape online petition data from [change.org](https://www.change.org/).
 
 [![pypi package](https://img.shields.io/badge/pypi_package-v0.0.7-brightgreen)](https://pypi.org/project/ChangeDotOrgScraper/) [![GitHub Source Code](https://img.shields.io/badge/github_source_code-source_code?logo=github&color=green)](https://github.com/cja5553/change_org_scraper) 
 
