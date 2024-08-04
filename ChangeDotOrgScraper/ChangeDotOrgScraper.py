@@ -119,13 +119,13 @@ def clean_info(petition_info, creator_info):
 
     Returns
     list_of_petitions (list): a list of dictionaries, with each dictionary containing information about the petition and creator from the list of petitions within one webpage. 
-    These includes petition title, Description, target audience, signature count, creator name, date created, location createdd, and victory status. 
+    These includes petition title, Description, signature count, creator name, date created, location createdd, and victory status. 
     '''
     list_of_petitions=[]
     for i,j in zip(petition_info,creator_info):
         petition_title=i["petition"]["ask"]
         petition_description=i["petition"]["description"]
-        petition_target=i["petition"]["targetingDescription"]
+        # petition_target=i["petition"]["targetingDescription"]
         petition_signatures=i["petition"]["signatureState"]["signatureCount"]["displayed"]
         petition_creator=j["user"]["displayName"]
         date_created=j['createdAt']
@@ -133,7 +133,7 @@ def clean_info(petition_info, creator_info):
         victory_verification_status=j['isVerifiedVictory']
         curr={"Petition title":petition_title,
              "Description":petition_description,
-             "target":petition_target,
+            #  "target":petition_target,
              "signature count":petition_signatures,
              "creator":petition_creator,
              "date created":date_created,
