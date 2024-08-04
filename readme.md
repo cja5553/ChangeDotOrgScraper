@@ -2,6 +2,14 @@
 
 [![pypi package](https://img.shields.io/badge/pypi_package-v0.0.7-brightgreen)](https://pypi.org/project/ChangeDotOrgScraper/) [![GitHub Source Code](https://img.shields.io/badge/github_source_code-source_code?logo=github&color=green)](https://github.com/cja5553/change_org_scraper) 
 
+
+
+## Installation
+To install in python, simply do the following: 
+```bash
+pip install ChangeDotOrgScraper
+```
+
 ## Quick Start
 Here we provide a quick example on how you can use `ChangeDotOrgScraper` to scrape petition data right from [change.org](https://www.change.org/). 
 
@@ -36,11 +44,6 @@ If you do not have these packages installed in python, you can do the following:
 pip install requests beautifulsoup4 tqdm pandas
 ```
 
-## Installation
-To install in python, simply do the following: 
-```bash
-pip install ChangeDotOrgScraper
-```
 
 ## Citation
 This package was made as part of a larger study on food stamps (i.e., SNAP), therefore, we do not have the paper ready just yet. 
